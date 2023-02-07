@@ -1,0 +1,128 @@
+
+/*************ordinateur***************/
+ @media screen and (min-width: 768px) {
+
+      
+/***********************************************/
+/*formulaire*/
+
+form {
+	padding: 20px;
+	}
+
+
+/*#formulaire {
+	margin: 6rem; /*pour mettre le formulaire au milieu*/*/
+           }
+
+/*fieldset {
+	padding: 1rem; /*pour le faire grandir*/
+         
+
+
+
+.identitée input { font-size: 18px;
+	display: inline-block;
+                 }
+ input {
+	font-size: 18px;
+        }
+
+label {
+	display: inline-block;
+	width: 200px;
+      }
+
+.partie2 {
+	display: grid;
+	grid-template-columns: 7fr 5fr;
+	grid-template-areas: "interet niveau";
+         }
+
+.materiel {
+	overflow: scroll;
+         }
+
+legend {  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+	font-size: 20px;
+}
+
+
+
+#formulaire {
+border:1px dotted black;
+background-color: #F5F5F5 ;
+padding: 10px;
+}
+.row2> .menu {
+  border:1px dotted black;
+background-color: #F5F5F5 ;
+padding-right: 10px;
+}
+
+}
+/******************smartphone************************/
+@media screen and (max-width: 768px)
+{
+ 
+
+/***header****/
+ 
+
+/***** menu et sous menu *************/
+
+/********************************/
+
+
+#formulaire {
+border:1px dotted black;
+background-color: #F5F5F5 ;
+padding: 10px;
+}
+.row2> .menu {
+  border:1px dotted black;
+background-color: #F5F5F5 ;
+margin-top: 20px;
+padding: 10px;
+
+}
+
+
+/****************FORMULAIRE************/
+/*#formulaire {
+    padding: 15px;
+    /*pour mettre le formulaire au milieu*/
+           }
+.identitée input { 
+    font-size: 20px;
+}
+/*fieldset {
+    padding: 2rem;*/
+}
+label { 
+        display: grid;
+        grid-template-columns: 2fr 4fr;
+        grid-auto-rows: 1fr 1fr 1fr 1fr;
+        font-size: 18px;
+}
+.materiel {
+    overflow: scroll;
+         }
+
+
+.partie2 { 
+    font-size: 20px;
+        }
+.check { 
+       width:20px;
+       height:20px;
+  }
+.boutton {
+     width:200px;
+     height:40px;
+
+         } 
+     }
+
+/****footer***********/
+}

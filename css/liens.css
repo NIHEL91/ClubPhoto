@@ -1,0 +1,50 @@
+/*************ordinateur***************/
+@media screen and (min-width: 768px) 
+{
+.lien {
+  font-size: 20px;
+  font-family: serif;
+  line-height: 1;
+  text-align: center;
+  border:1px dotted black;
+  padding-bottom: 20px;
+  background-color: #F5F5F5 ;
+      }
+
+.row2> .lien {
+border:1px dotted black;
+background-color: #F5F5F5 ;
+             }
+
+.row2> .menu {
+border:1px dotted black;
+background-color: #F5F5F5 ;
+padding-right: 10px;
+            }
+}
+/**************************smartphone*******************/
+@media screen and (max-width: 768px)
+{
+.lien {
+  font-size: 20px;
+  font-family: serif;
+  line-height: 1;
+  text-align: center;
+  border:1px dotted black;
+  padding-bottom: 20px;
+  background-color: #F5F5F5;
+      }
+
+.row2> .lien {
+border:1px dotted black;
+background-color: #F5F5F5 ;
+padding: 10px;
+            }
+.row2> .menu {
+border:1px dotted black;
+background-color: #F5F5F5 ;
+margin-top: 20px;
+padding: 10px;
+            }
+
+}
